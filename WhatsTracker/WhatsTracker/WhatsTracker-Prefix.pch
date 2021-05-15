@@ -1,0 +1,34 @@
+//
+//  WhatsTracker-Prefix.pch
+//  Whats Tracker
+//
+//  Created by Vivek Warde on 11/07/18.
+//  Copyright © 2018 Vivek Warde. All rights reserved.
+//
+
+#ifndef WhatsTracker_Prefix_pch
+#define WhatsTracker_Prefix_pch
+
+#import "MBProgressHUD.h"
+#import "AppDelegate.h"
+#import <Availability.h>
+#import <StartApp/StartApp.h>
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#define kRemoveAdsProductIdentifier @"IAPNonConsumProductID"
+
+#define keyCheckInApp @"keyCheckInApp"
+
+#define obj_appdelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate]
+#define statusHeight  [UIApplication sharedApplication].statusBarFrame.size.height
+
+#define IsIPad UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+#endif /* WhatsTracker_Prefix_pch */
